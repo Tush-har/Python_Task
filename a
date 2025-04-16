@@ -1,0 +1,101 @@
+[33mcommit 45fccb053aa7dd5e25185ae7d68f764220ffb161[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Tush-har <tusharavas2@gmail.com>
+Date:   Wed Apr 16 16:22:03 2025 +0530
+
+    Initial commit
+
+[33mcommit 1113c5a348b16914e23ee71459708ccab4ec6298[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:13:37 2025 +0530
+
+    Delete face_recognition.zip
+
+[33mcommit bcfdbff1a8c6c784db67acf7a135a4ae456311cd[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:13:11 2025 +0530
+
+    face recognition for CNC machines.
+    
+    # Face Recognition Attendance System
+    
+    This project is a face recognition-based attendance system. It uses a combination of OpenCV, face_recognition, and other Python libraries to detect and recognize faces in an IP camera stream and log attendance in real-time. The system distinguishes between authorized and unauthorized persons and provides real-time working time notifications.
+    
+    ## Features
+    
+    - **Face Detection & Recognition**: Utilizes the `face_recognition` and OpenCV libraries to process video frames, locate faces, and compare them with a set of known faces.
+    - **IP Camera Integration**: Streams video from an IP camera using RTSP over FFMPEG.
+    - **Attendance Logging**: Automatically logs the timestamp of first detection, calculates working time for recognized faces, and saves attendance in a text file.
+    - **Visual Feedback**: Draws green or red rectangles on faces depending on if they are recognized (authorized) or not.
+    - **Audio Notification**: Plays a beep sound for recognized faces (with a cooldown to avoid multiple beeps).
+    - **Error Handling**: Implements a frame skipping logic and reconnect mechanism in case of camera feed failures.
+    
+    ## Prerequisites
+    
+    - **Python 3.6+**
+    - **Libraries**:
+      - OpenCV (`opencv-python`)
+      - face_recognition
+      - NumPy
+      - winsound (Windows-only for audio notification)
+      - Other utilities: `os`, `datetime`, `time`
+    
+    *Note: For Linux/Mac users, replace `winsound` with an alternative sound library or disable beep functionality.*
+    
+    ## Installation
+    
+    1. **Clone the repository** (if using Git):
+       ```bash
+       git clone <repository_url>
+       cd <repository_directory>
+
+[33mcommit b54dc6e9aebdcf0cb1c8e0a05a9264514667cb16[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:07:20 2025 +0530
+
+    Delete dlib-19.22.99-cp39-cp39-win_amd64.whl
+
+[33mcommit 9c84e1103bcd7efb9147208ad59d6b3f04c9d0b1[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:07:10 2025 +0530
+
+    Delete cctv_camer_check.py
+
+[33mcommit a33f98dd4a563abbf477d1383feb3d199cc83364[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:06:51 2025 +0530
+
+    Delete acym.py
+
+[33mcommit a0e9835bab85dc76366e3025d68b374dabc8664f[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Wed Apr 16 12:06:19 2025 +0530
+
+    Add files via upload
+
+[33mcommit c4a941f4129c4d841246c649c8e5dd035b71e47f[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Fri Feb 21 13:34:42 2025 +0530
+
+    VIS Tool
+    
+    API used in train VIS AI models using yolov8 and fetching results.
+
+[33mcommit 665cf85fd73327b419d69b43f22cfa9c9b93a68c[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Fri Sep 27 12:23:09 2024 +0530
+
+    Script for data capture for LUCID cameras
+    
+    By adjustment in frames and pixel format script can be utilised for data capture using lucid cameras.
+
+[33mcommit 2b69772a414b878e84fbf5b49bbd97230efe8783[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Thu Mar 21 16:42:57 2024 +0530
+
+    Add files via upload
+
+[33mcommit 88b5fd6072e04f307fc08c3d5e57f0cd2ef73ec0[m
+Author: Tushar Awasthi <tusharavas2@gmail.com>
+Date:   Thu Mar 21 16:40:15 2024 +0530
+
+    Initial commit
